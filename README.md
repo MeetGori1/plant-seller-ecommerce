@@ -134,4 +134,16 @@ Navigate to the backend directory:
 cd ../backend
 docker build -t backend-app .
 ```
+
+Check Docker Compose Version:
+
+```
+docker-compose version
+```
+
+Build and start the containers:
+```
+docker-compose up
+```
+
 ---
