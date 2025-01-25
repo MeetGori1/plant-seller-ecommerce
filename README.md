@@ -114,11 +114,9 @@ npm start
 cd ../backend
 npm start
 ```
----
 
 6. Open your browser and visit `http://localhost:3000` to view the application.
 
----
 
 ---
 Build Docker Images Manually
