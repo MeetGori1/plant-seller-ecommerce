@@ -79,7 +79,7 @@ plant-seller/
 
 
 ```
-git clone https://github.com/piyushraj2340/Plant-Selling-Website.git
+git clone https://github.com/MeetGori1/plant-seller-ecommerce-.git
 ```
 
 2. Install dependencies:
@@ -97,7 +97,6 @@ npm install
 
    - Create a `.env` file in the backend directory.
    - Define environment variables such as `PORT`, `MONGODB_URI`, `STRIPE_SECRET_KEY`, etc.
-   - For a complete reference, please follow [Issue #2](https://github.com/piyushraj2340/Plant-Selling-Website/issues/2#issuecomment-2414624938).
 
 4. Run the frontend development server:
 
@@ -119,18 +118,20 @@ npm start
 
 6. Open your browser and visit `http://localhost:3000` to view the application.
 
----
+-------------
 
-**Contributing:**
+Build Docker Images Manually
 
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs, feature requests, or suggestions.
 
----
+Navigate to the frontend directory:
+```
+cd frontend
+docker build -t frontend-app .
+```
 
-**Contact:**
-
-For any inquiries or support, please contact [Piyush Raj](piyushraj2340@gmail.com).
-
----
-
+Navigate to the backend directory:
+```
+cd ../backend
+docker build -t backend-app .
+```
 ---
