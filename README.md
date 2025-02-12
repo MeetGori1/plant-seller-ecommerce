@@ -13,7 +13,6 @@ Let's grow together!
 ---
 
 **Folder Structure:**
-
 ```
 plant-seller/
 ├── frontend/
